@@ -1,11 +1,14 @@
+## c@
+
 Fun university assignment where I got to write a very simple interpreter.
 
-Features:
+### Features
+
 - variables
 - math expressions
 - printing values in different number bases
 
-Example source code:
+### Example Source Code
 
 ```
 config dec
@@ -36,3 +39,8 @@ Output:
 0x20
 0b100000
 ```
+
+## Dependencies
+
+- Python >= 3.10 (uses the new pattern matching feature)
+- pytest
