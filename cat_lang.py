@@ -306,7 +306,7 @@ def to_print(value: int, number_base: TType) -> str:
             return hex(value)
 
 
-def eval_exp(node: dict, env: dict) -> int:
+def eval_exp(node: Expression, env: dict) -> int:
     match node:
         case Integer(integer=integer):
             return int(integer.lexeme)
