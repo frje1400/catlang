@@ -56,7 +56,7 @@ simple_tokens = {
     "=": TType.equals
 }
 
-# The four valid keywords in cat.
+# The five valid keywords in cat.
 keywords = {"config", "print", "bin", "dec", "hex"}
 
 
